@@ -1,7 +1,6 @@
 import React from "react";
 
-function LocationDetails(props, index) {
-  // eslint-disable-next-line react/prop-types
+function LocationDetails(props) {
   const { city, country } = props;
   return <h1>{`${city}, ${country}`}</h1>;
 }
