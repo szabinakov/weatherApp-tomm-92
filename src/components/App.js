@@ -3,9 +3,9 @@ import React from "react";
 import LocationDetails from "./LocationDetails";
 import ForecastSummaries from "./ForecastSummaries";
 
-function App({location, forecasts}) {
+function App({ location, forecasts }) {
   return (
-    <div className="forecast">
+    <div className="weather-app">
       <LocationDetails city={location.city} country={location.country} />
 
       <ForecastSummaries forecasts={forecasts} />
