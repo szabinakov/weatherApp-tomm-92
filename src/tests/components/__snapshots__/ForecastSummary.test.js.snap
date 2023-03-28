@@ -17,6 +17,7 @@ exports[`ForecastSummary renders correctly 1`] = `
     >
       <img
         alt="weather-icon"
+        src="https://openweathermap.org/img/wn/01d@2x.png"
       />
     </div>
     <div
