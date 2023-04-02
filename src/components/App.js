@@ -45,18 +45,14 @@ function App() {
   };
 
   return (
-    <div className="weather-app">
-      <LocationDetails
-        city={location.city}
-        country={location.country}
-        errorMessage={errorMessage}
-      />
-      <div className="forecast">
-        <SearchForm
-          searchText={searchText}
-          setSearchText={setSearchText}
-          onSubmit={handleCitySearch}
+    <>
+      <div className="weather-app">
+        <LocationDetails
+          city={location.city}
+          country={location.country}
+          errorMessage={errorMessage}
         />
+
         {!errorMessage && (
           <>
             <ForecastSummaries
@@ -69,7 +65,14 @@ function App() {
           </>
         )}
       </div>
-    </div>
+      <div className="forecast">
+        <SearchForm
+          searchText={searchText}
+          setSearchText={setSearchText}
+          onSubmit={handleCitySearch}
+        />
+      </div>
+    </>
   );
 }
 
