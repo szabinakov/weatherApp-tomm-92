@@ -6,7 +6,7 @@ This project is a react based weather app which allows the user to search for a 
 
 The application will display a 5-day weather forecast for a location as defined by the user. If no location is defined, then the weather forecast for Manchester, UK will be loaded by default.
 
-The following weather data will be displayed: date, temperature, description and an incon summarising the forecast. The user can click 'more details' for further information on the weather forecast for the selected day. This will include the maximum and minimum temperatures, humidity, wind speed, and wind direction.
+The following weather data will be displayed: date, temperature, description and an icon summarising the forecast. The user can click 'more details' for further information on the weather forecast for the selected day. This will include the maximum and minimum temperatures, humidity, wind speed, and wind direction.
 
 ## Technologies & Concepts Covered
 
@@ -46,6 +46,32 @@ The following weather data will be displayed: date, temperature, description and
    ### `http://localhost:3000/`
 
 
+## Application Dependencies
+
+      "dependencies": {
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^1.3.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.4"
+      },
+
+
+## Developer Dependencies
+
+  "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.6"
+  }
 
 ## Available Scripts
 
@@ -84,3 +110,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Author 
+
+Tom Wilkinson - https://github.com/Tomm-92
