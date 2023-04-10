@@ -11,25 +11,28 @@ exports[`App renders correctly 1`] = `
       , 
     </h1>
     <div
-      class="forecast"
+      class="forecast-summaries"
+    />
+  </div>
+  <div
+    class="forecast"
+  >
+    <div
+      class="search-form"
     >
-      <div
-        class="search-form"
-      >
-        <input
-          type="text"
-          value=""
-        />
-        <button
-          class="search-form__submit-button"
-          type="submit"
-        >
-          Search
-        </button>
-      </div>
-      <div
-        class="forecast-summaries"
+      <input
+        class="search-bar"
+        placeholder="Search..."
+        type="text"
+        value=""
       />
+      <br />
+      <button
+        class="search-form__submit-button"
+        type="submit"
+      >
+        Search
+      </button>
     </div>
   </div>
 </DocumentFragment>

@@ -20,31 +20,31 @@ The following weather data will be displayed: date, temperature, description and
 
 1 - Clone the repository to your local machine
 
-   ```cli
-   git clone https://github.com/Tomm-92/weatherApp.git
-   ```
-   
+```cli
+git clone https://github.com/Tomm-92/weatherApp.git
+```
+
 2 - Navigate to the project directory
 
-   ```cli
-   cd weatherApp
-   ```
+```cli
+cd weatherApp
+```
+
 3 - Install the project dependencies
 
-   ```cli
-   npm install
-   ```
+```cli
+npm install
+```
 
 4 - Start the application
 
-   ```cli
-   npm start
-   ```
+```cli
+npm start
+```
 
-5 - View the application in the browser: 
+5 - View the application in the browser:
 
-   ### `http://localhost:3000/`
-
+### `http://localhost:3000/`
 
 ## Application Dependencies
 
@@ -59,19 +59,18 @@ The following weather data will be displayed: date, temperature, description and
         "web-vitals": "^2.1.4"
       },
 
-
 ## Developer Dependencies
 
-  "devDependencies": {
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.8.6"
-  }
+"devDependencies": {
+"eslint-config-airbnb": "^19.0.4",
+"eslint-config-prettier": "^8.8.0",
+"eslint-plugin-import": "^2.27.5",
+"eslint-plugin-jsx-a11y": "^6.7.1",
+"eslint-plugin-prettier": "^4.2.1",
+"eslint-plugin-react": "^7.32.2",
+"eslint-plugin-react-hooks": "^4.6.0",
+"prettier": "^2.8.6"
+}
 
 ## Available Scripts
 
@@ -110,6 +109,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Author 
+## Author
 
 Tom Wilkinson - https://github.com/Tomm-92
