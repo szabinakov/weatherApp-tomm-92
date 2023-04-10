@@ -18,12 +18,14 @@ function App() {
 
   useEffect(() => {
     getForecast(
-      "",
+      searchText,
       setSelectedDate,
       setForecasts,
       setLocation,
       setErrorMessage
     );
+    // CODE REVIEW QUESTION - What is the best approach to this UseEffect - I can either use the esLint disable below, or add searchText to the dependency array, or remove searchText from useEffect and add "" - however the third option makes the page load slow?
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleCitySearch = () => {
