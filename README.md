@@ -2,6 +2,8 @@
 
 This project is a react based weather app which allows the user to search for a 5-day forecast for any UK city. I completed this work as part of the CommandShift Software Developer Bootcamp. The app uses forecast data from a CommandShift API via the Axios HTTP Client for Node.js
 
+Access a live verison here: https://weatherapplicationinreact.netlify.app
+
 ## Features
 
 The application will display a 5-day weather forecast for a location as defined by the user. If no location is defined, then the weather forecast for Manchester, UK will be loaded by default.
