@@ -8,7 +8,7 @@ exports[`App renders correctly 1`] = `
     <h1
       class="location-details"
     >
-      , 
+       
     </h1>
     <div
       class="forecast-summaries"
