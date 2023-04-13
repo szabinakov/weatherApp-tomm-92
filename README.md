@@ -1,6 +1,78 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a react based weather app which allows the user to search for a 5-day forecast for any UK city. I completed this work as part of the CommandShift Software Developer Bootcamp. The app uses forecast data from a CommandShift API via the Axios HTTP Client for Node.js
+
+Access a live verison here: https://weatherapplicationinreact.netlify.app
+
+## Features
+
+The application will display a 5-day weather forecast for a location as defined by the user. If no location is defined, then the weather forecast for Manchester, UK will be loaded by default.
+
+The following weather data will be displayed: date, temperature, description and an icon summarising the forecast. The user can click 'more details' for further information on the weather forecast for the selected day. This will include the maximum and minimum temperatures, humidity, wind speed, and wind direction.
+
+## Technologies & Concepts Covered
+
+- React inc. RTL
+- Axios
+- Components
+- Props
+- Hooks - useState & useEffect
+
+## Installation
+
+1 - Clone the repository to your local machine
+
+```cli
+git clone https://github.com/Tomm-92/weatherApp.git
+```
+
+2 - Navigate to the project directory
+
+```cli
+cd weatherApp
+```
+
+3 - Install the project dependencies
+
+```cli
+npm install
+```
+
+4 - Start the application
+
+```cli
+npm start
+```
+
+5 - View the application in the browser:
+
+### `http://localhost:3000/`
+
+## Application Dependencies
+
+      "dependencies": {
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^1.3.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.4"
+      },
+
+## Developer Dependencies
+
+"devDependencies": {
+"eslint-config-airbnb": "^19.0.4",
+"eslint-config-prettier": "^8.8.0",
+"eslint-plugin-import": "^2.27.5",
+"eslint-plugin-jsx-a11y": "^6.7.1",
+"eslint-plugin-prettier": "^4.2.1",
+"eslint-plugin-react": "^7.32.2",
+"eslint-plugin-react-hooks": "^4.6.0",
+"prettier": "^2.8.6"
+}
 
 ## Available Scripts
 
@@ -39,32 +111,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tom Wilkinson - https://github.com/Tomm-92
